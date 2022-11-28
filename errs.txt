@@ -1,0 +1,10 @@
+exec ${PAGER:-/usr/bin/less} "$0" || exit 1
+Executing tests from //pkg/ui/workspaces/db-console:eslint
+-----------------------------------------------------------------------------
+
+/private/var/tmp/_bazel_gerardo/358efafe0e3f245ca4f89e50093e0c16/sandbox/darwin-sandbox/2606/execroot/com_github_cockroachdb_cockroach/bazel-out/darwin_arm64-fastbuild/bin/pkg/ui/workspaces/db-console/eslint.sh.runfiles/com_github_cockroachdb_cockroach/pkg/ui/workspaces/db-console/src/views/databases/databaseDetailsPage/redux.ts
+  104:2  error  Insert `;`  prettier/prettier
+
+✖ 1 problem (1 error, 0 warnings)
+  1 error and 0 warnings potentially fixable with the `--fix` option.
+
